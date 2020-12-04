@@ -69,4 +69,4 @@ client.registry
     .registerCommandsIn(path.join(__dirname, 'commands'))
 ;
 
-client.login(process.BOT_TOKEN);
+client.login(process.env.TOKEN);
