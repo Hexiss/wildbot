@@ -15,15 +15,6 @@ const client = new CommandoClient({
     }
 });
 
-/// AUTO REACT /// test server
-client.on('message', message => {
-    if (message.channel.id === "781531711530991626") {
-        message.react('👍');
-        message.react('👎');
-        message.author.send("Ta suggestion a bien été prise en compte, l'équipe **Wildsens** te remercie pour ton investissement ! :heart:"); 
-    }
-});
-/// AUTO REACT ///
 
 /// AUTO REACT /// wildsens
 client.on('message', message => {
