@@ -3,7 +3,6 @@ const path = require('path');
 const fs = require('fs')
 const dotenv = require('dotenv')
 
-}
 
 const client = new CommandoClient({
     commandPrefix: 'w.',
